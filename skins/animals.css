@@ -205,3 +205,11 @@ main section:nth-child(2n + 3) {
 	margin-top: -100px;
 	margin-bottom: -100px;
 }
+
+section article::before {
+	content: 'ur all mine, she said';
+	background-color: white;
+	position: absolute;
+	left: 105px;
+	top: -15px;
+}
