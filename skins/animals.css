@@ -198,6 +198,9 @@ header article {
 section article {
 	width: 350px;
 	padding: 23px;
+	/* make this position relative so it will
+	hold the absolutely positioned before section, below */
+	position: relative;
 }
 
 main section:nth-child(2n + 3) {
@@ -212,4 +215,6 @@ section article::before {
 	position: absolute;
 	left: 105px;
 	top: -15px;
+
+	transform: rotate(-5deg);
 }
