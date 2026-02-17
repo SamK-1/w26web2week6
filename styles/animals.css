@@ -179,3 +179,27 @@ nav a{
 	font-weight:bold;
 	text-decoration:none; /* remove underline */
 }
+
+p {
+	line-height: 1.4;
+}
+
+article {
+	background: white;
+	border: 1px solid#aaa;
+	box-shadow: 2px 2px 4px rgb(50, 50, 50);
+}
+
+header article {
+	margin: 20px 0;
+	padding: 10px;
+}
+
+section article {
+	width: 350px;
+	padding: 23px;
+}
+
+main section:nth-child(2n + 3) {
+	justify-self: end;
+}
