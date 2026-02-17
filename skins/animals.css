@@ -141,6 +141,8 @@ nav{
 	/* make the menu "stick" to the top of the page */
 	position:sticky;
 	top:0;
+
+	z-index: 50;
 }
 
 /* the > selector means direct child, or only the ul that is a
@@ -217,4 +219,11 @@ section article::before {
 	top: -15px;
 
 	transform: rotate(-5deg);
+}
+
+a[href*="wiki"] {
+	background-image: url(../images/wikipedia-icon.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-left: 1.5em;
 }
